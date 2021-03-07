@@ -9,8 +9,8 @@ while sum<=100:
       if (a%i==0):
           a+=1 # if문을 통해, 소수가 아닌 수에 +1 하기!
 
-    sum+=a
+    sum+=a # 소수를 sum에 더하기
     a+=1
     num+=1
 
-print("정답은 ",num,"번째입니다!", sep="")
+print("정답은 ",num,"번째입니다!", sep="") # 결과 출력하기
