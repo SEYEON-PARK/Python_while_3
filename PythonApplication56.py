@@ -7,7 +7,7 @@ num=1 # 몇 번째 소수인지 카운팅
 while sum<=100:
     for i in range(2,a):
       if (a%i==0):
-          a+=1
+          a+=1 # if문을 통해, 소수가 아닌 수에 +1 하기!
 
     sum+=a
     a+=1
